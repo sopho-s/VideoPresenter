@@ -255,11 +255,12 @@ class MenuWindow(QMainWindow):
             filename, _ = QFileDialog.getOpenFileName(self, "Open Flag")
             self.mediaplayer = VideoPlayer(self.filename, filename)
 
+if __name__ == '__main__':
 
-app = QApplication(sys.argv)
+    app = QApplication(sys.argv)
 
-window = MenuWindow()
-window.show()
+    window = MenuWindow()
+    window.show()
 
 
-sys.exit(app.exec_())
+    sys.exit(app.exec_())
