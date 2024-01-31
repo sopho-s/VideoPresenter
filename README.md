@@ -1,4 +1,4 @@
-### Video Presenter
+# Video Presenter
 
 Video presenter's main aim was to allow me to present videos I've made in manim as a presentation
 
